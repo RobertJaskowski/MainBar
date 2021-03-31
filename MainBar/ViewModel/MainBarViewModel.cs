@@ -47,30 +47,12 @@ namespace MainBar.ViewModel
 
         }
 
-        //float topPercentFilled = 0;
-        //public int timeSecToFillTopBar = 0;//todo
-
+        
         public void UpdateTopBar(int value)
         {
             ProgressTopBar = value;
         }
 
-        //public void UpdateTopBar(double totalSeconds)
-        //{
-        //    if (timeSecToFillTopBar == 0)
-        //        return;
-
-
-        //    float rest = (float)(totalSeconds % (timeSecToFillTopBar));
-        //    topPercentFilled = Utils.ToProcentage(rest, 0, timeSecToFillTopBar);
-
-        //    ProgressTopBar = topPercentFilled;
-
-        //    //progressBarTopMost.SetValueWithAnimation(topPercentFilled, true);
-
-
-
-        //}
 
 
         public void SetBarColor(Color color)
